@@ -1,0 +1,20 @@
+.header {
+  min-height: 25px;
+  position: relative;
+  z-index: 10;
+  width: 90%;
+  border-bottom: 1px solid rgba(52, 64, 102, 0.1);
+  background: rgba(255, 255, 255, 0.88);
+  backdrop-filter: blur(16px);
+  border-radius: 16px 16px 16px 16px;
+}
+.headerIMG{
+  position: relative;
+  z-index: 10;
+  margin: 1%;
+}
+.header {
+  display: flex;
+  width: min(100% - 48px, 1120px);
+  margin: 0 auto;
+}
